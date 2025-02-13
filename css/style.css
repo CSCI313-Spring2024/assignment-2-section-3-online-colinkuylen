@@ -1,8 +1,7 @@
 h1 {
   color: green;
 }
-table {
-}
+
 th,
 td {
   border: 5px solid black;
@@ -10,6 +9,7 @@ td {
 }
 h2 {
   text-align: center;
+  color: rgb(151, 126, 62);
 }
 .larger-margins {
   margin-top: 20px;
@@ -18,5 +18,16 @@ h2 {
   margin-left: 100px;
 }
 body {
-  background-color: bisque;
+  background-color: rgb(152, 177, 177);
+  border: 10px solid rgb(151, 126, 62);
+  border-style:ridge ;
+}
+.hobby-margins{
+  margin-right: 600px;
+  margin-left: 600px;
+}
+img{
+  border: 10px solid rgb(151, 126, 62);
+  width: 20%;
+  border-style:ridge;
 }
