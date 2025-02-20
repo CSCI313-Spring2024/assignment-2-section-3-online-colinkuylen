@@ -1,0 +1,36 @@
+h1 {
+  color: rgb(151, 126, 62);
+}
+
+th,
+td {
+  border: 5px solid black;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: rgb(151, 126, 62);
+}
+.larger-margins {
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+body {
+  background-color: rgb(152, 177, 177);
+  border: 10px solid rgb(151, 126, 62);
+  border-style:ridge ;
+}
+.hobby-margins{
+  margin-right: 400px;
+  margin-left: 400px;
+}
+img{
+  border: 10px solid rgb(151, 126, 62);
+  width: 20%;
+  border-style:ridge;
+}
+p{
+  color: whitesmoke;
+}
