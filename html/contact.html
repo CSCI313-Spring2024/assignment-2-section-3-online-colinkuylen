@@ -56,49 +56,12 @@
             <li class="nav-item">
               <a class="navbar-brand" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <h1>Colin Kuylen</h1>
         </div>
       </div>
     </nav>
 
-    <h2 class="larger-margins">Contact Me</h2>
-    <h2 class="larger-margins">My Phone Number</h2>
-    <p style="text-align: center">(123)456-5678</p>
-    <h2 class="larger-margins">My Email</h2>
-    <p style="text-align: center">john.doe@lmail.com</p>
     <h2 class="larger-margins">Leave A Message</h2>
     <div class="mb-3 larger-margins">
       <label for="phonenumberinput" class="form-label">Phone number</label>
@@ -129,6 +92,148 @@
         id="exampleFormControlTextarea1"
         rows="3"
       ></textarea>
+    </div>
+    <form class="row g-3; larger-margins">
+      <div class="col-md-4">
+        <label for="validationDefault01" class="form-label">First name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationDefault01"
+          placeholder="Mark"
+          required
+        />
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Last name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationDefault02"
+          placeholder="Otto"
+          required
+        />
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label"
+          >Username</label
+        >
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefaultUsername"
+            aria-describedby="inputGroupPrepend2"
+            required
+          />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationDefault03" class="form-label">City</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationDefault03"
+          required
+        />
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">State</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>AL</option>
+          <option>AK</option>
+          <option>AZ</option>
+          <option>AR</option>
+          <option>AS</option>
+          <option>CA</option>
+          <option>CO</option>
+          <option>CT</option>
+          <option>DE</option>
+          <option>DC</option>
+          <option>FL</option>
+          <option>GA</option>
+          <option>GU</option>
+          <option>HI</option>
+          <option>ID</option>
+          <option>IL</option>
+          <option>IN</option>
+          <option>IA</option>
+          <option>KS</option>
+          <option>KY</option>
+          <option>LA</option>
+          <option>ME</option>
+          <option>MD</option>
+          <option>MA</option>
+          <option>MI</option>
+          <option>MN</option>
+          <option>MS</option>
+          <option>MO</option>
+          <option>MT</option>
+          <option>NE</option>
+          <option>NV</option>
+          <option>NH</option>
+          <option>NJ</option>
+          <option>NM</option>
+          <option>NY</option>
+          <option>NC</option>
+          <option>ND</option>
+          <option>MP</option>
+          <option>OH</option>
+          <option>OK</option>
+          <option>OR</option>
+          <option>PA</option>
+          <option>PR</option>
+          <option>RI</option>
+          <option>SC</option>
+          <option>SD</option>
+          <option>TN</option>
+          <option>TX</option>
+          <option>TT</option>
+          <option>UT</option>
+          <option>VT</option>
+          <option>VA</option>
+          <option>VI</option>
+          <option>WA</option>
+          <option>WV</option>
+          <option>WI</option>
+          <option>WY</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault05" class="form-label">Zip</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationDefault05"
+          required
+        />
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="invalidCheck2"
+            required
+          />
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+    <div class="card" style="background-color: rgb(39, 41, 41)">
+      <div class="card-body">
+        <h5 class="card-title" style="color: whitesmoke">Contact Me</h5>
+        <p class="card-text">My Phone Number: (123)456-5678</p>
+        <p class="card-text">My Email: john.doe@lmail.com</p>
+      </div>
     </div>
   </body>
 </html>
